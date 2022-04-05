@@ -1,9 +1,9 @@
 # BMP280
-## Digital Pressure Sensor Library for Arduino Platform with I2C/SPI interfaces
+### Digital Pressure Sensor Library for the Arduino Platform with I2C/SPI interfaces
 
 The library included in the repository was tested with GY-91 board containing two sensors: **BMP280** and **MPU9250**.
 
-### Changelog
+## Changelog
 
 <Version 0.3.0> 
 
@@ -55,12 +55,12 @@ The library included in the repository was tested with GY-91 board containing tw
 * Temperature reading
 * Pressure reading
 
-### Examples
+## Examples
 
-> I2C/SPI digital interface communication mutiple (burst) read/write data
++ I2C/SPI digital interface communication mutiple (burst) read/write data
 
-> I2C/SPI digital interface communication single read/write data
++ I2C/SPI digital interface communication single read/write data
 
-> I2C/SPI calibration read only
++ I2C/SPI calibration read only 
 
 **Author:** _Paulo Sousa_
