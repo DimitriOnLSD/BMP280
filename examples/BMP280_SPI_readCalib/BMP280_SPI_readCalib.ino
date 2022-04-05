@@ -8,11 +8,7 @@ void setup()
 {
   Serial.begin(9600);
   bmp.spiPin(CS);
-  bmp.config();
-  bmp.getCalibrationData();
-  bmp.printCalibValues();
+  bmp.setupBMP280();
 }
 
-void loop()
-{
-}
+void loop() {}
