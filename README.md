@@ -57,10 +57,10 @@ The library included in the repository was tested with GY-91 board containing tw
 
 ### Examples
 
-+ I2C/SPI digital interface communication mutiple (burst) read/write data
+> I2C/SPI digital interface communication mutiple (burst) read/write data
 
-+ I2C/SPI digital interface communication single read/write data
+> I2C/SPI digital interface communication single read/write data
 
-+ I2C/SPI calibration read only
+> I2C/SPI calibration read only
 
 **Author:** _Paulo Sousa_
