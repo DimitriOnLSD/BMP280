@@ -1,5 +1,7 @@
 #include <BMP280.h>
 
+#define CS 49
+
 BMP280 bmp;
 
 void setup()
@@ -9,8 +11,9 @@ void setup()
   Serial.println("--Sensor BMP280--");
   Serial.println("Digital Pressure Sensor");
   Serial.println("");
-  Serial.println("-I2C Communication-");
+  Serial.println("-SPI Communication-");
   Serial.println("");
+  bmp.spiPin(CS);
   bmp.config();
   bmp.getCalibrationData();
   bmp.printCalibValues();
