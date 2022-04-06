@@ -5,6 +5,17 @@ The library included in the repository was tested with GY-91 board containing tw
 
 ## Changelog
 
+<Version 0.4.0> 
+
+`06/04/2022`
+
+* Added functions for SPI and I2C communication protocols, only requiring now 1 line of code
+* Changes to variable sizes
+* Cleaned aspect and vectors
+* Reduced _.cpp_ lines by 27%
+* Reduced library size by 9%
+* Reduced programme storage space up to 13%
+
 <Version 0.3.0> 
 
 `05/04/2022`

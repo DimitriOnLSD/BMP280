@@ -39,7 +39,7 @@ void loop()
   Serial.println("");
   delay(500);
   Serial.print("At this altitude, water boils @ ");
-  Serial.print(bmp.findWaterBoilingPoint());
+  Serial.print(bmp.getWaterBoilingPoint());
   Serial.println(" ºC");
   Serial.println("");
   delay(500);  
